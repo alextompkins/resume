@@ -3,6 +3,7 @@ import Typist from 'react-typist';
 import { RestartingTypist } from './RestartingTypist';
 import { BasicData, SocialData } from '../ResumeDataTypes';
 import { Socials } from './Socials';
+import 'react-typist/dist/Typist.css';
 
 type HeaderProps = {
     basic: BasicData,
@@ -28,11 +29,11 @@ export const Header: FunctionComponent<HeaderProps> = ({ basic, socials }) => <h
         <div className="banner-text">
             <h1 className="responsive-headline">Hey. I'm {basic.name.first}.</h1>
             <h3>I'm a {basic.location.city}-based
-                <RestartingTypist>
+                <RestartingTypist avgTypingDelay={30} cursor={{blink: true}}>
                     {basic.identities.map(identity =>
                         <span style={{ display: 'inline' }} key={identity}>
                             {identity}
-                            <Typist.Delay ms={500}/>
+                            <Typist.Delay ms={4000}/>
                             <Typist.Backspace count={identity.length}/>
                         </span>
                     )}

@@ -3,6 +3,7 @@ import Typist from 'react-typist';
 
 type RestartingTypistProps = {
     timeout?: number
+    [x:string]: unknown;
 }
 
 type RestartingTypistState = {
