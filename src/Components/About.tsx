@@ -5,7 +5,7 @@ type AboutProps = {
     basic: BasicData
 }
 
-export const About: FunctionComponent<AboutProps> = ({basic}) => <section id="about">
+export const About: FunctionComponent<AboutProps> = ({ basic }) => <section id="about">
     <div className="row">
         <div className="three columns">
             <img className="profile-pic" src={basic.profilePicPath} alt="Alex Tompkins Profile Pic"/>
@@ -18,7 +18,7 @@ export const About: FunctionComponent<AboutProps> = ({basic}) => <section id="ab
                 <div className="columns contact-details">
                     <h2>Contact Details</h2>
                     <p className="location">
-                        <span>{basic.name}</span><br/>
+                        <span>{basic.name.first} {basic.name.last}</span><br/>
                         <span>{basic.location.city}</span><br/>
                         <span>{basic.location.country}</span><br/>
                         <span>{basic.phone}</span><br/>

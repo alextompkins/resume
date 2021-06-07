@@ -1,10 +1,10 @@
-type NameData = {
+export type NameData = {
     first: string,
     middle?: string
     last: string,
 };
 
-type LocationData = {
+export type LocationData = {
     city: string,
     country: string,
 };
@@ -12,6 +12,7 @@ type LocationData = {
 export type BasicData = {
     name: NameData
     occupation: string,
+    identities: string[],
     description: string,
     bio: string,
     contactMessage: string,
@@ -29,14 +30,14 @@ export type SocialData = {
     className: string,  // e.g. fa fa-linkedin
 }
 
-type EducationData = {
+export type EducationData = {
     school: string,
     degree: string,
     graduated: string,
     description: string,
 };
 
-type WorkData = {
+export type WorkData = {
     company: string,
     title: string,
     years: {
@@ -52,19 +53,19 @@ export type ExperienceData = {
     work: WorkData[],
 };
 
-type SkillData = {
+export type SkillData = {
     name: string,
     level: string,
 };
 
-type ProjectData = {
+export type ProjectData = {
     title: string,
     tagline: string,
     image: string,
     url: string,
 };
 
-type TestimonialData = {
+export type TestimonialData = {
     text: string,
     author: string,
 };

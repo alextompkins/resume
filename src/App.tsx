@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga';
 import './App.css';
-import { About, Header, Footer, Resume, Portfolio } from './Components';
+import { About, Header, Footer, Experience, Portfolio } from './Components';
 import { ResumeData } from './ResumeDataTypes';
 
 // For Google Analytics
@@ -43,13 +43,13 @@ class App extends Component<AppProps, AppState> {
     }
 
     renderApp = (data: ResumeData) => <div className="App">
-        <Header data={data.basic}/>
+        <Header basic={data.basic} socials={data.socials}/>
         <About basic={data.basic}/>
-        <Resume data={data.experience}/>
-        <Portfolio data={data.portfolio}/>
+        <Experience experience={data.experience} skills={data.skills}/>
+        <Portfolio projects={data.portfolio.projects}/>
         {/*<Testimonials data={this.state.resumeData.testimonials}/>*/}
         {/*<Contact data={this.state.resumeData.basic}/>*/}
-        <Footer basic={data.basic}/>
+        <Footer basic={data.basic} socials={data.socials}/>
     </div>;
 
     render() {

@@ -5,6 +5,15 @@
       "last": "Tompkins"
     },
     "occupation": "full-stack software developer",
+    "identities": [
+      "Software Engineer",
+      "Google-fu Extraodinaire",
+      "Level 5 Halfling Barbarian",
+      "Extremely Rusty Archery Enthusiast",
+      "Late-blooming Sk8er Boy",
+      "Hopeful Pilot",
+      "Full-time Human Being"
+    ],
     "description": "I like to solve difficult problems, challenge myself, and leave things better than I found them.",
     "image": "profilepic.jpg",
     "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
@@ -63,38 +72,38 @@
         "years": "March 2007 - February 2010",
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       }
-    ],
-    "skills": [
-      {
-        "name": "Git",
-        "level": "60%"
-      },
-      {
-        "name": "Illustrator",
-        "level": "55%"
-      },
-      {
-        "name": "ReactJs",
-        "level": "50%"
-      },
-      {
-        "name": "CSS",
-        "level": "90%"
-      },
-      {
-        "name": "HTML5",
-        "level": "80%"
-      },
-      {
-        "name": "VueJs",
-        "level": "50%"
-      },
-      {
-        "name": "MongoDB",
-        "level": "80%"
-      }
     ]
   },
+  "skills": [
+    {
+      "name": "Git",
+      "level": "60%"
+    },
+    {
+      "name": "Illustrator",
+      "level": "55%"
+    },
+    {
+      "name": "ReactJs",
+      "level": "50%"
+    },
+    {
+      "name": "CSS",
+      "level": "90%"
+    },
+    {
+      "name": "HTML5",
+      "level": "80%"
+    },
+    {
+      "name": "VueJs",
+      "level": "50%"
+    },
+    {
+      "name": "MongoDB",
+      "level": "80%"
+    }
+  ],
   "portfolio": {
     "projects": [
       {
