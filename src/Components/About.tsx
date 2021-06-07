@@ -19,10 +19,9 @@ export const About: FunctionComponent<AboutProps> = ({ basic }) => <section id="
                     <h2>Contact Details</h2>
                     <p className="location">
                         <span>{basic.name.first} {basic.name.last}</span><br/>
-                        <span>{basic.location.city}</span><br/>
-                        <span>{basic.location.country}</span><br/>
+                        <span>{basic.location.city}, {basic.location.country}</span><br/>
                         <span>{basic.phone}</span><br/>
-                        <span>{basic.email}</span>
+                        <span><a href={`mailto: ${basic.email}`}>{basic.email}</a></span>
                     </p>
                 </div>
                 <div className="columns download">

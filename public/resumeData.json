@@ -6,20 +6,22 @@
     },
     "occupation": "full-stack software developer",
     "identities": [
-      "Software Engineer",
-      "Google-fu Extraodinaire",
+      "software engineer",
       "Level 5 Halfling Barbarian",
-      "Extremely Rusty Archery Enthusiast",
-      "Late-blooming Sk8er Boy",
-      "Hopeful Pilot",
-      "Full-time Human Being"
+      "back-country hiker",
+      "extremely-rusty archery enthusiast",
+      "Google-fu extraodinaire",
+      "amateur photographer",
+      "late-blooming skater boy",
+      "hopeful pilot",
+      "full-time human being"
     ],
     "description": "I like to solve difficult problems, challenge myself, and leave things better than I found them.",
-    "image": "profilepic.jpg",
+    "profilePicPath": "images/profilepic.jpg",
     "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactMessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "alex@atomic.nz",
-    "phone": "(+64)220277541",
+    "phone": "(+64) 220277541",
     "location": {
       "city": "Christchurch",
       "country": "New Zealand"

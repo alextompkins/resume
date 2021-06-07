@@ -16,7 +16,7 @@ const Project: FunctionComponent<{ info: ProjectData }> = ({ info }) =>
                         <p>{info.tagline}</p>
                     </div>
                 </div>
-                <div className="link-icon"><i className="fa fa-link"></i></div>
+                <div className="link-icon"><i className="fa fa-link"/></div>
             </a>
         </div>
     </div>;
