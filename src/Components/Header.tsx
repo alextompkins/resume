@@ -16,12 +16,12 @@ export const Header: FunctionComponent<HeaderProps> = ({ basic, socials }) => <h
         <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
         <ul id="nav" className="nav">
-            <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-            <li><a className="smoothscroll" href="#about">About</a></li>
-            <li><a className="smoothscroll" href="#resume">Resume</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-            {/*<li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>*/}
-            {/*<li><a className="smoothscroll" href="#contact">Contact</a></li>*/}
+            <li className="current"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#portfolio">Works</a></li>
+            {/*<li><a href="#testimonials">Testimonials</a></li>*/}
+            {/*<li><a href="#contact">Contact</a></li>*/}
         </ul>
     </nav>
 
@@ -50,7 +50,7 @@ export const Header: FunctionComponent<HeaderProps> = ({ basic, socials }) => <h
     </div>
 
     <p className="scrolldown">
-        <a className="smoothscroll" href="#about"><i className="icon-down-circle"/></a>
+        <a href="#about"><i className="icon-down-circle"/></a>
     </p>
 
 </header>;
